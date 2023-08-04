@@ -128,4 +128,13 @@ body {
   .under-construction {
     width: 100vh;
     height: 25vh;
+    background-color: yellow;
+  }
+
+  .under-construction h3 {
+    text-align: center;
+  }
+
+  .under-construction p {
+    text-align: center;
   }
