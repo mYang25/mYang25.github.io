@@ -7,9 +7,9 @@ body {
   .home-page {
     position: relative;
     background-color: #000;
-    color: #fff;
+    color: #ffffff;
     width: 100vw;
-
+    height: 100vh;
   }
   
   .pfp {
@@ -67,7 +67,7 @@ body {
     position: absolute;
     left: 50%;
     top: 90%;
-    transform: rotate(45deg);
+    transform: rotate(135deg);
     
     &::before {
       content: '';
@@ -133,8 +133,8 @@ body {
 
   .about-me {
     background-color: #303030;
-    padding: 100 px;
-    height: 600px;
+    height: 100vh;
+    width: 100vh;
     color: #fff;
     text-align: center;
   }
