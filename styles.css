@@ -9,7 +9,7 @@ body {
     background-color: #02007d;
     color: #ffffff;
     width: 100vw;
-    height: 75vh;
+    height: 80vh;
     overflow: hidden;
   }
   
@@ -21,11 +21,12 @@ body {
     overflow: hidden;
   }
 
-  .pfp img{
+  .pfp img {
     position: absolute;
     max-width: 100%;
     max-height: 100%;
     left: 15%;
+    bottom: 0%;
     scale: 1.75;
     display: block;
   }
@@ -64,7 +65,7 @@ body {
     position: relative;
     background-color: #828282;
     width: 100vw;
-    height: 25vh;
+    height: 20vh;
     overflow: hidden;
   }
 
