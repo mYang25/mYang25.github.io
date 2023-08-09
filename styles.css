@@ -14,10 +14,7 @@ body {
   }
   
   .pfp {
-    position: relative;
     background-color: transparent;
-    width: 100%;
-    height: 80vh;
     overflow: hidden;
   }
 
