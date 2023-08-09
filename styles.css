@@ -4,6 +4,14 @@ body {
     font-family: monaco, monospace;
   }
   
+  .banner {
+    position: fixed;
+    height: 5vh;
+    width: 100vw;
+    top: 0%;
+    background-color: #000;
+  }
+
   .home-page-top {
     position: relative;
     background-color: #01002e;
@@ -138,13 +146,6 @@ body {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-  }
-
-  .banner {
-    position: fixed;
-    height: 5vh;
-    width: 100vw;
-    background-color: #000;
   }
 
   .about-me {
