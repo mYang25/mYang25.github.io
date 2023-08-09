@@ -4,12 +4,13 @@ body {
     font-family: monaco, monospace;
   }
   
-  .home-page {
+  .home-page-top {
     position: relative;
-    background-color: #000;
+    background-color: #02007d;
     color: #ffffff;
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
+    overflow: auto;
   }
   
   .pfp {
@@ -35,7 +36,6 @@ body {
     left: 40%;
     transform: translateY(-50%);
     text-align: right;
-    padding-right: 50px;
   }
   
   h1 {
@@ -60,13 +60,21 @@ body {
     cursor: pointer;
   }
 
+  .home-page-bot {
+    position: relative;
+    background-color: #828282;
+    width: 100vw;
+    height: 25vh;
+    overflow: auto;
+  }
+
   .arrow {
     width: 6vmin;
     height: 6vmin;
     box-sizing: border-box;
     position: absolute;
     left: 50%;
-    top: 90%;
+    top: 50%;
     transform: rotate(135deg);
     
     &::before {
@@ -134,9 +142,10 @@ body {
   .about-me {
     background-color: #303030;
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     color: #fff;
     text-align: center;
+    overflow: auto;
   }
 
   .about-me h2 {
@@ -152,7 +161,8 @@ body {
   }
 
   .about-me-content {
-    width: 100%;
+    top: 50%;
+    left: 50%;
   }
   
   .circle-button {
@@ -174,7 +184,7 @@ body {
   }
 
   .under-construction {
-    width: 100%;
+    width: 100vh;
     height: 25vh;
     background-color: yellow;
   }
