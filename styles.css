@@ -10,6 +10,7 @@ body {
     color: #ffffff;
     width: 100vw;
     height: 80vh;
+    max-width: 100%;
     overflow: hidden;
   }
   
