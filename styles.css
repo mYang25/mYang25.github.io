@@ -16,6 +16,8 @@ body {
   .pfp {
     background-color: transparent;
     overflow: hidden;
+    height: 80vh;
+    width: 100vw;
   }
 
   .pfp img {
