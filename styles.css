@@ -6,7 +6,7 @@ body {
   
   .banner {
     position: fixed;
-    height: 5vh;
+    height: 10vh;
     width: 100vw;
     top: 0%;
     background-color: #000;
