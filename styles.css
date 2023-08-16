@@ -193,22 +193,25 @@ body {
   }
 
   .skills {
+    background-color: #01002e;
     height: 100vh;
     width: 100vh;
   }
 
   .projects {
+    background-color: #01002e;
     height: 100vh;
     width: 100vh;
   }
 
   .contact {
+    background-color: #01002e;
     height: 100vh;
     width: 100vh;
   }
 
   .under-construction {
-    width: 100vh;
+    width: 100vw;
     height: 25vh;
     background-color: yellow;
     text-align: center;
