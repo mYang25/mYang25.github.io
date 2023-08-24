@@ -153,6 +153,7 @@ body {
     &:hover::before {
       border-color: orange;
       transform: scale(.8);
+      left: 5%;
     }   
   }
 
