@@ -149,7 +149,6 @@ body {
       transform: rotate(45deg);
       border-color: orange;
       height: 120%;
-      transform: scale(.8);
     }
     &:hover::before {
       border-color: orange;
