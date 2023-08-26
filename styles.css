@@ -153,7 +153,6 @@ body {
     &:hover::before {
       border-color: orange;
       transform: scale(.8);
-      right: 5%;
     }   
   }
 
@@ -208,8 +207,23 @@ body {
   }
     
   .img-container {
-    display: flex;    
+    display: flex;
     justify-content: space-between;
+  }
+
+  .skill-img {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .skill-img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .skill-img p {
+    margin-top: 10px;
   }
 
   .projects {
