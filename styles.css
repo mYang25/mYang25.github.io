@@ -117,7 +117,7 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: rotate(135deg);
+    transform: rotate(135 deg);
     
     &::before {
       content: '';
@@ -146,14 +146,15 @@ body {
     }
     
     &:hover::after {
-      transform: rotate(45deg);
+      transform: rotate(45 deg);
       border-color: orange;
       height: 120%;
     }
     &:hover::before {
       border-color: orange;
       transform: scale(.8);
-    }   
+      
+    }     
   }
 
   /*About Me*/
