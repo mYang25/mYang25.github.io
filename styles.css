@@ -7,15 +7,10 @@ body {
     padding: 0;
     font-family: monaco, monospace;
   }
-  
-  /* .container-fluid{
-    padding: 3% 7%
-  } */
 
   .banner {
     position: fixed;
     height: 10vh;
-    /* width: 100vw; */
     top: 0%;
     background-color: #000;
   }
@@ -24,9 +19,7 @@ body {
     position: relative;
     background-color: #01002e;
     color: #ffffff;
-    /* width: 100vw; */
     height: 80vh;
-    /* max-width: 100%; */
     overflow: hidden;
   }
   
@@ -60,7 +53,7 @@ body {
     font-weight: bold;
   }
   
-  p {
+  .home_page_content p {
     font-size: 16px;
     line-height: 1.5;
   }
@@ -105,7 +98,6 @@ body {
   .home-page-bot {
     position: relative;
     background-color: #828282;
-    /* width: 100vw; */
     height: 20vh;
     overflow: hidden;
   }
@@ -117,7 +109,7 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: rotate(135 deg);
+    transform: rotate(135deg);
     
     &::before {
       content: '';
@@ -146,14 +138,14 @@ body {
     }
     
     &:hover::after {
-      transform: rotate(45 deg);
+      transform: rotate(45deg) scale(.8);
+      transform-origin: 50% 0%;
       border-color: orange;
-      height: 120%;
+      height: 160%;
     }
     &:hover::before {
       border-color: orange;
       transform: scale(.8);
-      
     }     
   }
 
@@ -207,20 +199,17 @@ body {
     height: 100vh;
   }
     
-  .img-container {
+  .flex-container {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
   }
 
-  .skill-img {
-    flex: 1;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .skill-img img {
-    max-width: 100%;
-    height: auto;
+  .flex-container img {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .skill-img p {

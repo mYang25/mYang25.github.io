@@ -18,20 +18,7 @@
 </head>
 
 <body>
-  <div class="banner"></div>
-  
-  <div class="home-page-top">
-    <div class="pfp">
-      <img src="pfp.png" alt="My_Image">
-    </div>
-
-    <div class="home_page_content">
-      <h1>Hi! I am Matt Yang, Software Engineer.</h1>
-      <p>Back-End, Full-Stack, Data Analysis, App Dev</p>
-      <a href="https://github.com/mYang25" target="_blank" rel="noopener noreferrer" class="button">Github</a>
-      <a href="https://linkedin.com/in/matthewyangucsd" target="_blank" rel="noopener noreferrer" class="button">Linkedin</a>
-    </div>
-
+  <div class="banner">
     <!--Nav Bar-->
     <nav class="menu">
       <ul>
@@ -42,16 +29,34 @@
       </ul>
     </nav>
   </div>
+  
+  <section id="home">
+    <div class="home-page-top">
+     <div class="pfp">
+        <img src="pfp.png" alt="My_Image">
+      </div>
 
-  <!--Read More Arrow-->
-  <div class="home-page-bot">
-    <!-- <h3>Read More</h3> -->
-    <a href="#about-me">
-    <div class="arrow">
-      <h6>Read More</h6>
+      <div class="home_page_content">
+        <h1>Hi! I am Matt Yang, Software Engineer.</h1>
+        <p>Back-End, Full-Stack, Data Analysis, App Dev</p>
+        <a href="https://github.com/mYang25" target="_blank" rel="noopener noreferrer" class="button">Github</a>
+        <a href="https://linkedin.com/in/matthewyangucsd" target="_blank" rel="noopener noreferrer" class="button">Linkedin</a>
+      </div>
     </div>
-    </a>
-  </div>
+
+  
+    <div class="home-page-bot">
+      <a href="#about-me">
+        <!--should write "Read More"-->
+        <p>
+          Read More
+        </p>
+        <!--Read More Arrow-->
+        <div class="arrow"></div>
+      </a>
+    </div>
+  </section>
+
 
   <section id="about-me">
     <div class="container-fluid about-me">
@@ -79,29 +84,29 @@
       I have experience in a variety of major platforms and an efficent, streamlined 
       workflow that is independent of environment. </p>
 
-      <div class="img-container">
-        <div class="skill-img-top-left">
+      <div class="flex-container">
+        <div>
           <img src="API_Icon.png" alt="API Icon">
           <p>
-            
+
           </p>
         </div>
 
-        <div class="skill-img-top-right">
+        <div>
           <img src="AppDev.png" alt="App Dev Icon">
           <p>
 
           </p>
         </div>
 
-        <div class="skill-img-bottom-left">
+        <div>
           <img src="streamline.png" alt="Streamline Icon">
           <p>
 
           </p>
         </div>
 
-        <div class="skill-img-bottom-right">
+        <div>
           <img src="WebDez.png" alt="Web Dev Icon">
           <p>
             
