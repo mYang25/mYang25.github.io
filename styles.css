@@ -8,6 +8,24 @@ body {
     font-family: monaco, monospace;
   }
 
+h1 {
+  font-size: 52px;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  font-size: 128px;
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  font-size: 16 px;
+  line-height: 1.5;
+  color: white;
+}
+
   /* .banner {
     position: fixed;
     height: 10vh;
@@ -15,38 +33,67 @@ body {
     background-color: #000;
   } */
 
+  .container-fluid {
+    padding: 0% 15%;
+  }
+
   #home {
+    background-color: #01002e;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow: hidden; 
   }
   
   .home-page-top {
     position: relative;
-    background-color: #01002e;
     color: #ffffff;
-    height: 80vh;
     overflow: hidden;
+    padding-top: 20%;
+    max-height: 100%;
   }
   
+  /* .pfp {
+    position: relative;
+    /* max-width: 100%;
+    max-height: 100%; */
+    /* left: 50%; */
+    /* bottom: 18%; */
+    /* scale: 2; */
+    /* display: flex; */
+  
+
   .pfp {
     background-color: transparent;
     overflow: hidden;
-    height: 80vh;
-    width: 100vw;
+    /* height: 80vh; */
+    width: 200%;
+    /* position: relative; */
+    scale: 2;
+    /* padd-top: 10%; */
+    /* display: block; */
+    margin: auto;    
+    display: block;
+    /* left: 550px;
+    bottom: 20px; */
+  } 
+
+  .intro {
+    padding-top: 10%;
   }
 
-  .pfp img {
+  /* .pfp img {
     position: absolute;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 100%; */
+    /* max-height: 100%; */
+    /* height: auto;
     left: 50%;
     bottom: 18%;
-    scale: 2;
-    display: block;
-  }
+    scale: 2.2;
+    display: flex;
+    flex-shrink: 0;
+  } */
   
   .home_page_content {
     position: absolute;
@@ -57,15 +104,11 @@ body {
     text-align: right;
   }
   
-  h1 {
-    font-size: 54px;
-    font-weight: bold;
-  }
   
-  .home_page_content p {
+  /* .home_page_content p {
     font-size: 16 px;
     line-height: 1.5;
-  }
+  } */
   
   .button {
     display: inline-block;
@@ -110,10 +153,14 @@ body {
     position: relative;
     background-color: #01002e;
     color: #fff;
-    height: 20vh;
+    /* height: 40vh; */
     overflow: hidden;
     text-align: center;
+    padding-top: 20%
+  }
 
+  .home-page-bot p{
+    padding-left: 5%;
   }
 
   /* .home-page-bot p {
@@ -180,26 +227,30 @@ body {
   #about-me {
     background-color: #303030;
     height: 100vh;
-    /* width: 100vw; */
     color: #fff;
     text-align: center;
     overflow: hidden;
   }
 
-  .about-me h2 {
+  .about-me {
+    margin: 150px 0px 150px 0px;
+  }
+
+  /* .about-me h2 {
     font-size: 128px;
     font-weight: bold;
     margin-top: 100px;
-  }
+  } */
   
-  .about-me p {
+  /* .about-me p {
     font-size: 16px;
     line-height: 2;
     padding: 3% 15%;
-  }
+  } */
 
   .about-me-content {
     padding: 3% 15%;
+    
     /* top: 50%;
     left: 50%; */
   }
@@ -230,11 +281,12 @@ body {
     /* height: 100vh; */
     justify-content: center;
     align-items: center;
+    text-align: center;
     
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     margin: 0px;
-    padding: 0px;
+    padding: 3% 15%;
     overflow-x: hidden; 
   }
     
@@ -251,9 +303,9 @@ body {
     background-repeat: no-repeat;
   }
 
-  .skill-img p {
+  /* .skill-img p {
     margin-top: 10px;
-  }
+  } */
 
   .projects {
     background-color: #01002e;
@@ -271,3 +323,6 @@ body {
     text-align: center;
   }
 
+  .under-construction p {
+    color: #01002e;
+  }
