@@ -280,6 +280,10 @@ p {
     padding: 3% 2%;
   }
 
+  .skills-column p{
+    color: black;
+  }
+
   .card-header {
     background-color: transparent;
     color: #01002e;
@@ -297,10 +301,6 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
   }
-
-  /* .skill-img p {
-    margin-top: 10px;
-  } */
 
   .projects {
     background-color: #01002e;
